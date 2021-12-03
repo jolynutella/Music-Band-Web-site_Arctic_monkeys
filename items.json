@@ -1,0 +1,216 @@
+{
+    "music": [
+        {
+            "id": 1,
+            "name": "AM",
+            "price": 1384,
+            "imgName": "Album1 - AM.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Suck It And See",
+            "price": 1384,
+            "imgName": "Suck_It_And_See.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Humbug",
+            "price": 1384,
+            "imgName": "arcticmonkeys_humbug_220x.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Favourite Worst Nightmare",
+            "price": 1384,
+            "imgName": "arctic_monkeys_favourite_worst_nightmare_packshot_220x.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Whatever People Say I Am, That`s What I`m Not",
+            "price": 1384,
+            "imgName": "dc11ee448a327fc72c8717b43dbb0aee.1000x1000x1_220x.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Alex Turner - Submarine",
+            "price": 1107,
+            "imgName": "submarine_web_220x.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Tranquility Base Hotel + Casino - Vinyl",
+            "price": 2909,
+            "imgName": "tbhc_LP_product_image_220x.png"
+        },
+        {
+            "id": 8,
+            "name": "Tranquility Base Hotel + Casino - Compact Disk",
+            "price": 1523,
+            "imgName": "tbhc_LP_product_image_220x.png"
+        }
+    ],
+    "merch": [
+        {
+            "id": 9,
+            "name": "Classic Logo Black T-Shirt",
+            "price": 3664,
+            "imgName": "AM_19_Classic-logo-black_220x.png"
+        },
+        {
+            "id": 10,
+            "name": "Classic Logo White T-Shirt",
+            "price": 3664,
+            "imgName": "AM_19_Classic-logo-white_220x.png"
+        },
+        {
+            "id": 11,
+            "name": "Oscilloscope Logo Black T-Shirt",
+            "price": 3664,
+            "imgName": "AM_20OSC-Tee-Black-Aside_220x.png"
+        },
+        {
+            "id": 12,
+            "name": "Take It Easy For A Little While Mustard T-Shirt - Limited Edition",
+            "price": 3664,
+            "imgName": "AM_21-Matt-yellow-shirt-both_1_220x.png"
+        },
+        {
+            "id": 13,
+            "name": "Monkeys Infinity Hexagon Long Sleeve T-Shirt - Limited Edition",
+            "price": 4850,
+            "imgName": "AM_21-Matt-Easy-Longsleeve-Black-both_1_220x.png"
+        },
+        {
+            "id": 14,
+            "name": "Take It Easy For A Little While White T-Shirt - Limited Edition",
+            "price": 3664,
+            "imgName": "AM_21-Matt-white-shirt-both_1_220x.png"
+        },
+        {
+            "id": 15,
+            "name": "Oscilloscope Logo White T-Shirt",
+            "price": 3664,
+            "imgName": "GQ5i8BmA_220x.png"
+        },
+        {
+            "id": 16,
+            "name": "Why`D You Only Call White/Blue BaseBall T-shirt",
+            "price": 4157,
+            "imgName": "AM-HIGH-BLUE_220x.png"
+        },
+        {
+            "id": 17,
+            "name": "Oscilloscope Logo Grey Sweater",
+            "price": 6236,
+            "imgName": "AM_20-OSC-Sweat-Grey-Aside_07688d26-8bc6-4a40-bc6d-7100db5b35ee_220x.png"
+        },
+        {
+            "id": 18,
+            "name": "I Wanna Be Yours - Black Hoodie",
+            "price": 6236,
+            "imgName": "AM_20Wanna-Hood-Blackcopy_220x.png"
+        },
+        {
+            "id": 19,
+            "name": "Oscilloscope Logo Black Women`s T-Shirt",
+            "price": 3664,
+            "imgName": "AM_20OSC-Tee-Womens-Black-Aside_220x.png"
+        },
+        {
+            "id": 20,
+            "name": "AM Logo Ringer T-Shirt",
+            "price": 4157,
+            "imgName": "0aOIbSfM6IAsZJX2dSnLW-K_KW2jjvFWAoKHdJHJ8Ro_220x.png"
+        },
+        {
+            "id": 21,
+            "name": "AM Hexagons T-Shirt",
+            "price": 3664,
+            "imgName": "TOUR_220x.png"
+        },
+        {
+            "id": 22,
+            "name": "Monkeys T-Shirt",
+            "price": 3664,
+            "imgName": "2RgAJbn1pY6assrg2av0QKT9NogJzgovj9rs89Z0FaY_220x.png"
+        },
+        {
+            "id": 23,
+            "name": "Tranquility Base Hotel + Casino White T-Shirt",
+            "price": 3664,
+            "imgName": "zUvdykxQ84rKrdAO27LWEspYtl2_qtUJ64xbI8uBrXU_220x.png"
+        },
+        {
+            "id": 24,
+            "name": "Tranquility Base Hotel + Casino Sweatshirt",
+            "price": 6236,
+            "imgName": "p0lK-22CHSqATCXEx7tiBbavQYzvBpCNIXgLqb3uYG4_220x.png"
+        },
+        {
+            "id": 25,
+            "name": "AM Berlin Limited Edition Event T-shirt",
+            "price": 3664,
+            "imgName": "P3T0HotmAIVOln8hAStcV830__wOzVa47wOR21IF620_220x.png"
+        },
+        {
+            "id": 26,
+            "name": "AM Rome Limited Edition Event T-shirt (Silver Foil Print)",
+            "price": 3664,
+            "imgName": "rWXqV5v-hU2eJYMLc5FJDs25JhyWysblSEusRZNY3Fw_220x.png"
+        },
+        {
+            "id": 27,
+            "name": "AM Paris Limited Edition Event T-shirt (Flock Print)",
+            "price": 3664,
+            "imgName": "TeZ3Q6GM7Tc_IH7_xkIIuXxosjK9hs8dy9UvJEaA-Yo_220x.png"
+        },
+        {
+            "id": 28,
+            "name": "AM Milan Limited Edition Event T-shirt (Flock Print)",
+            "price": 3664,
+            "imgName": "USllsL42YZlBAYzAFT5zsyYDrEEcULmG2b3AKa5SFO0_220x.png"
+        },
+        {
+            "id": 29,
+            "name": "Monkeys White Sports Socks",
+            "price": 1663,
+            "imgName": "monkeys-socks2_220x.png"
+        },
+        {
+            "id": 30,
+            "name": "Classic Logo Key Ring",
+            "price": 1109,
+            "imgName": "Classiclogo_220x.png"
+        },
+        {
+            "id": 31,
+            "name": "Limited Edition Zackery Michael Postcard Set",
+            "price": 1039,
+            "imgName": "AM-Postcard-GifCROPPED_220x.gif"
+        },
+        {
+            "id": 32,
+            "name": "Rome Limited Edition Screen Print Night One",
+            "price": 4850,
+            "imgName": "ROME_220x.png"
+        },
+        {
+            "id": 33,
+            "name": "Rome Limited Edition Screen Print Night Two",
+            "price": 4850,
+            "imgName": "ROME2_220x.png"
+        },
+        {
+            "id": 34,
+            "name": "Dublin Limited Edition Screen Print Night One",
+            "price": 4850,
+            "imgName": "Dargan_Dublin_1_220x.png"
+        },
+        {
+            "id": 35,
+            "name": "Dublin Limited Edition Screen Print Night Two",
+            "price": 4850,
+            "imgName": "Dargan_Dublin_2_220x.png"
+        }
+    ]
+}

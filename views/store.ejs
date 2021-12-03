@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Arctic Monkeys | Store</title>
+  <meta name="description" content="This is the description">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://checkout.stripe.com/checkout.js" defer></script>
+  <script>
+    var stripePublicKey = '<%= stripePublicKey %>'
+</script>
+  <script src="store.js" defer></script>
+</head>
+<body>
+<header class="main-header">
+  <nav class="main-nav nav">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="store">STORE</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+    </ul>
+  </nav>
+  <h1 class="band-name band-name-large">Arctic Monkeys</h1>
+</header>
+<section class="container content-section">
+  <h2 class="section-header">MUSIC</h2>
+  <div class="shop-items">
+      <% items.music.forEach(function(item){ %>
+          <div class="shop-item" data-item-id="<%= item.id %>">
+              <span class="shop-item-title"><%= item.name %></span>
+              <img class="shop-item-image" src="images/<%= item.imgName %>">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">$<%= item.price / 100 %></span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+          </div>
+      <% }) %>
+  </div>
+</section>
+<section class="container content-section">
+  <h2 class="section-header">MERCH</h2>
+  <div class="shop-items">
+      <% items.merch.forEach(function(item){ %>
+          <div class="shop-item" data-item-id="<%= item.id %>">
+              <span class="shop-item-title"><%= item.name %></span>
+              <img class="shop-item-image" src="images/<%= item.imgName %>">
+              <div class="shop-item-details">
+                  <span class="shop-item-price">$<%= item.price / 100 %></span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+          </div>
+      <% }) %>
+  </div>
+</section>
+<section class="container content-section">
+  <h2 class="section-header">CART</h2>
+  <div class="cart-row">
+      <span class="cart-item cart-header cart-column">ITEM</span>
+      <span class="cart-price cart-header cart-column">PRICE</span>
+      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+  </div>
+  <div class="cart-items">
+  </div>
+  <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">$0</span>
+  </div>
+  <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+<footer class="main-footer">
+  <div class="container main-footer-container">
+    <h3 class="band-name">Arctic monkeys</h3>
+    <ul class="nav footer-nav">
+      <li>
+        <a href="https://www.youtube.com/channel/UC-KTRBl9_6AX10-Y7IKwKdw" target="_blank">
+          <img src="images/YouTube Logo.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH" target="_blank">
+          <img src="images/Spotify Logo.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/ArcticMonkeys/" target="_blank">
+          <img src="images/Facebook Logo.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/ArcticMonkeys?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+          <img src="images/Twitter%20Logo.png" width="70px" height="70px">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/arcticmonkeys/" target="_blank">
+          <img src="images/images.png" width="70px" height="70px">
+        </a>
+      </li>
+      <li>
+        <a href="https://music.apple.com/playlist/arctic-monkeys-essentials/pl.f670a1eddfe4447db36310afddd7d3a1" target="_blank">
+          <img src="images/Apple%20Logo.png" width="70px" height="70px">
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
